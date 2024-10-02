@@ -1,0 +1,7 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 843e22d6ad424cf8b409aa57f210206d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Ins_behav xil_defaultlib.TB_Ins -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

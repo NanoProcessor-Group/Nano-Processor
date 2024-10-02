@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../micro_processor.srcs/sources_1/imports/sources_1/new/MUX_2_way_4.vhd" \
+"../../../../micro_processor.srcs/sources_1/imports/Telegram Desktop/TBuffer_2_1_4Bit.vhd" \
+"../../../../micro_processor.srcs/sources_1/imports/Telegram Desktop/TBuffer_2_1_4Bit_I.vhd" \
+"../../../../micro_processor.srcs/sim_1/new/TB_MUX_4_T_Buf.vhd" \
+
+# Do not sort compile order
+nosort

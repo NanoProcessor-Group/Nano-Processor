@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sat May  4 11:42:28 2024
+# Process ID: 14796
+# Current directory: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5216 C:\Users\DASUN\Downloads\Telegram Desktop\latest update.xpr\micro_processor\micro_processor.xpr
+# Log file: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/vivado.log
+# Journal file: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/micro_processor.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -file {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/utilization.txt} -name utilization_1
+archive_project {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor.xpr.zip} -temp_dir {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/.Xil/Vivado-14796-DESKTOP-304596O} -force -include_local_ip_cache -include_config_settings

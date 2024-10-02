@@ -1,0 +1,154 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = micro_processor
+Directory = C:/Users/sehan/OneDrive/Desktop/micro_processor
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+C:/Users/sehan/OneDrive/Desktop/micro_processor/archive_project_summary.txt
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./micro_processor.srcs/sources_1/imports/sources_1/new/Data_Bus.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Decoder_2_to_4.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Decoder_3_to_8.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/FA.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/HA.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Instruction_Dec.vhd
+./micro_processor.srcs/sources_1/new/Instruction_Selector.vhd
+./micro_processor.srcs/sources_1/imports/Telegram Desktop/LUT_16_7.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/MUX_2_way_4.vhd
+./micro_processor.srcs/sources_1/imports/Telegram Desktop/Mux_2_1.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Mux_8_to_1.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Program_Rom.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/RCA_3.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/RCA_4.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Reg.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Reg_Bank.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/imports/lab 7 res/Slow_Clk.vhd
+./micro_processor.srcs/sources_1/imports/Telegram Desktop/TBuffer_2_1_4Bit.vhd
+./micro_processor.srcs/sources_1/imports/Telegram Desktop/TBuffer_2_1_4Bit_I.vhd
+./micro_processor.srcs/sources_1/new/TBuffer_2_way_3.vhd
+./micro_processor.srcs/sources_1/new/TBuffer_3_Bit.vhd
+./micro_processor.srcs/sources_1/new/TBuffer_3_Bit_N.vhd
+./micro_processor.srcs/sources_1/new/comparator.vhd
+./micro_processor.srcs/sources_1/imports/sources_1/new/Processor.vhd
+./micro_processor.srcs/sources_1/imports/micro_processor/archive_project_summary.txt
+
+<constrs_1>
+./micro_processor.srcs/constrs_1/imports/Micro/Basys3Labs.xdc
+
+<sim_1>
+./micro_processor.srcs/sim_1/new/TB_Tri_Invert.vhd
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/sehan/OneDrive/Desktop/micro_processor/vivado.jou
+Archived Location = ./micro_processor/vivado.jou
+
+Source File = C:/Users/sehan/OneDrive/Desktop/micro_processor/vivado.log
+Archived Location = ./micro_processor/vivado.log
+

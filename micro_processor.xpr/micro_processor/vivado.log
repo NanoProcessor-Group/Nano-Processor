@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sat May  4 11:42:28 2024
+# Process ID: 14796
+# Current directory: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5216 C:\Users\DASUN\Downloads\Telegram Desktop\latest update.xpr\micro_processor\micro_processor.xpr
+# Log file: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/vivado.log
+# Journal file: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/micro_processor.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1011.922 ; gain = 205.184
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun May  5 01:21:17 2024] Launched synth_1...
+Run output will be captured here: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/micro_processor.runs/synth_1/runme.log
+[Sun May  5 01:21:17 2024] Launched impl_1...
+Run output will be captured here: C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/micro_processor.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1916.457 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1916.457 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2049.938 ; gain = 930.352
+report_utilization -file {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/utilization.txt} -name utilization_1
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2050.457 ; gain = 0.000
+archive_project {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor.xpr.zip} -temp_dir {C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/.Xil/Vivado-14796-DESKTOP-304596O} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/.Xil/Vivado-14796-DESKTOP-304596O' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/DASUN/Downloads/Telegram Desktop/latest update.xpr/micro_processor/.Xil/Vivado-14796-DESKTOP-304596O/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
